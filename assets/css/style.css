@@ -1048,3 +1048,70 @@ body {
   .footer-brand { grid-column: auto; }
 
 }
+
+form{
+  width: 600px;
+  text-align: center;
+}
+form .input-box{
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.input-box .input-field{
+  width: 48.5%;
+}
+
+.field .item{
+  width: 100%;
+  padding: 18px;
+  background: transparent;
+  border: 2px solid #ef1f76;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  margin: 12px 0;
+
+}
+
+.field .item::placeholder{
+  color: #333;
+}
+
+form .textarea .item{
+  resize: none;
+}
+
+form button{
+  padding: 12px 32px;
+  background: #ef1f76;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #ee3f88;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+form button:hover{
+  box-shadow: none;
+}
+
+.field .error-txt{
+  font-size: 14.5px;
+  color: red;
+  text-align: left;
+  margin: -5px 0 10px ;
+  display: none;
+
+}
+
+form .textarea .error-txt{
+  margin: -10px ;
+}

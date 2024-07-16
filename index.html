@@ -82,7 +82,7 @@
 
       </nav>
 
-      <a href="#" class="btn">
+      <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/utkarshchoudhary1573?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;" class="btn">
         <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
 
         <span>Get A Quote</span>
@@ -119,8 +119,13 @@
               Discover Your Trailblazing Potential with Trail: Transforming Ideas into Impact
             </p>
 
-            <button class="btn">Connect with us</button>
+            <button class="btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/utkarshchoudhary1573?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Connect with us</button>
 
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            
+            <!-- Calendly link widget end -->
           </div>
 
           <figure class="hero-banner">
@@ -504,7 +509,7 @@
 
           <figure class="about-banner">
             <img src="./assets/images/contact-banner.png" width="700" height="532" loading="lazy" alt="about banner"
-              class="w-100 banner-animation" style="width: 345px;">
+              class="w-100 banner-animation" style="width: 600px;">
           </figure>
 
           <div class="about-content">
@@ -512,17 +517,44 @@
             <h2 class="h2 section-title underline">Contact Us!</h2>
 
             <p class="about-text">
-              Tell us about your content, current: Operations, Technical setup, Sales channels, etc.
+              Lets Connect and Discuss Your Ideas and How We Can Help You Transform Them into Impactful Solutions.
 
-              We make a few budgeted proposals based on where we can add value and feasibility.
 
-              Once agreements are finalized, we'll be ready to proceed with developing a
-              platform for you.
             </p>
 
-            <p class="about-text">
-              We hope to see you onboard with Trail!
-            </p>
+            <form action="https://formsubmit.co/utkarshchoudhary1573@gmail.com" method="POST">
+              <div class="input-box">
+                <div class="input-field field">
+                  <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off" name="name"
+                    required>
+                  <div class="error-txt">Full Name can't be blank.</div>
+                </div>
+                <div class="input-field field">
+                  <input type="email" placeholder="Email Address" id="email" class="item" autocomplete="off"
+                    name="email" required>
+                  <div class="error-txt">Email Address can't be blank.</div>
+                </div>
+                <div class="input-field field">
+                  <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off" name="phone"
+                    required>
+                  <div class="error-txt">Phone Number can't be blank.</div>
+                </div>
+                <div class="input-field field">
+                  <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off" name="subject"
+                    required>
+                  <div class="error-txt">Subject can't be blank.</div>
+                </div>
+                <div class="textarea-field field">
+                  <textarea class="item" name="message" placeholder="Your Message" id="message" cols="30" rows="10"
+                    autocomplete="off" required></textarea>
+                  <div class="error-txt">Message can't be blank.</div>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_autoresponse"
+                  value="Thankyou for contacting Trail. We'll shortly respond you.">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
 
 
 
@@ -692,7 +724,7 @@
 
             <div>
               <a href="mailto:vergeoftrail@gmail.com" class="footer-item-link">vergeoftrail@gmail.com</a>
-              
+
             </div>
 
           </li>
@@ -740,7 +772,11 @@
 
   <!-- 
     - custom js link
+
   -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   <script src="./assets/js/script.js"></script>
 
   <!-- 

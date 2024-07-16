@@ -54,3 +54,34 @@ window.addEventListener("scroll", function () {
     goTopBtn.classList.remove("active");
   }
 });
+
+// contact form
+
+// const form = document.querySelector("form");
+// const fullName = document.querySelector("name");
+// const email = document.querySelector("email");
+// const phone = document.querySelector("phone");
+// const subject = document.querySelector("subject");
+// const mess = document.querySelector("message");
+
+// function sendEmail(){
+//   const bodyMessage = `Full Name: ${fullName.value} \n Email: ${email.value} \n Phone Number: ${phone.value} \n Subject: ${subject.value} \n Message: ${mess.value}`;
+
+//   Email.send({
+//     Host : "smtp.elasticemail.com",
+//     Username : "utkarshchoudhary1573@gmail.com",
+//     Password : "DCE3A304405DA8D8C1CE52A40781FBA5569B",
+//     To : 'utkarshchoudhary1573@gmail.com',
+//     From : "utkarshchoudhary1573@gmail.com",
+//     Subject : subject.value,
+//     Body : bodyMessage
+// }).then(
+//   message => alert(message)
+// );
+// }
+
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   sendEmail();
+//   form.reset();
+// });
