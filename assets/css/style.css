@@ -2,9 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
 
 
 
@@ -1081,6 +1078,7 @@ form .input-box{
 
 form .textarea .item{
   resize: none;
+  margin-left: -300px;
 }
 
 form button{

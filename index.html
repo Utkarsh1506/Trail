@@ -27,7 +27,7 @@
     rel="stylesheet">
 </head>
 
-<body id="top">
+<body id="top" style="overflow-x: hidden;">
 
   <!-- 
     - #HEADER
@@ -82,7 +82,9 @@
 
       </nav>
 
-      <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/utkarshchoudhary1573?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;" class="btn">
+      <a href="#"
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vergeoftrail?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;"
+        class="btn">
         <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
 
         <span>Get A Quote</span>
@@ -116,15 +118,17 @@
             <h2 class="h2 hero-title">We Delivers The Best That Users Love</h2>
 
             <p class="hero-text">
-              Discover Your Trailblazing Potential with Trail: Transforming Ideas into Impact
+              Are You Ready To Transform Ideas into Impact With Trail ?
             </p>
 
-            <button class="btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/utkarshchoudhary1573?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Connect with us</button>
+            <button class="btn"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vergeoftrail?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Connect
+              with us</button>
 
             <!-- Calendly link widget begin -->
             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            
+
             <!-- Calendly link widget end -->
           </div>
 
@@ -154,7 +158,7 @@
 
           <div class="about-content">
 
-            <h2 class="h2 section-title underline">Why Our Agency</h2>
+            <h2 class="h2 section-title underline">Why Us ?</h2>
 
             <p class="about-text">
               We provide content creators with
@@ -172,7 +176,7 @@
               world.
             </p>
 
-            <ul class="stats-list">
+            <!-- <ul class="stats-list">
 
               <li class="stats-card">
                 <p class="h3 stats-title">50+</p>
@@ -192,7 +196,7 @@
                 <p class="stats-text">Years Completed</p>
               </li>
 
-            </ul>
+            </ul> -->
 
           </div>
 
@@ -231,9 +235,9 @@
                   maximize their online presence.
                 </p>
 
-                <button class="card-btn" aria-label="Show More">
+                <!-- <button class="card-btn" aria-label="Show More">
                   <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button>
+                </button> -->
 
               </div>
             </li>
@@ -255,9 +259,9 @@
                   effectively.
                 </p>
 
-                <button class="card-btn" aria-label="Show More">
+                <!-- <button class="card-btn" aria-label="Show More">
                   <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button>
+                </button> -->
 
               </div>
             </li>
@@ -280,9 +284,9 @@
                   streams.
                 </p>
 
-                <button class="card-btn" aria-label="Show More">
+                <!-- <button class="card-btn" aria-label="Show More">
                   <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button>
+                </button> -->
 
               </div>
             </li>
@@ -337,14 +341,14 @@
                 </div>
 
                 <div class="content">
-                  <h3 class="h3 title">Operational Management</h3>
+                  <h3 class="h3 title">Social Media Management</h3>
 
                   <p class="text">
                     From
                     managing logistics to handling
                     customerinquiries, we take care of
                     the day-to-day operations so
-                    creators can focus on whatthey do
+                    creators can focus on what they do
                     best—creating content.
                   </p>
                 </div>
@@ -422,7 +426,7 @@
       <section class="section features" id="blog">
         <div class="container">
 
-          <h2 class="h2 section-title underline">By collaborating with Trail, you will
+          <h2 class="h2 section-title underline">By Onboarding with Trail, you will
 
             benefit from</h2>
           <ul class="features-list">
@@ -509,8 +513,37 @@
 
           <figure class="about-banner">
             <img src="./assets/images/contact-banner.png" width="700" height="532" loading="lazy" alt="about banner"
-              class="w-100 banner-animation" style="width: 600px;">
+              class="w-100 banner-animation" style="width: 350px;">
+            <span>
+              <li class="footer-item">
+
+                <div class="footer-item-icon">
+                  <ion-icon name="mail"></ion-icon>
+                </div>
+    
+                <div>
+                  <a href="mailto:Info@thetrail.in" class="footer-item-link">Info@thetrail.in</a>
+    
+                </div>
+    
+              </li>
+              <li class="footer-item">
+
+                <div class="footer-item-icon">
+                  <ion-icon name="call"></ion-icon>
+                </div>
+    
+                <div>
+                  <a href="tel:+918856858118" class="footer-item-link">+91 8856858118</a>
+                  <a href="tel:+917017125653" class="footer-item-link">+91 7017125653</a>
+                </div>
+    
+              </li>
+    
+
+            </span>  
           </figure>
+          
 
           <div class="about-content">
 
@@ -518,7 +551,6 @@
 
             <p class="about-text">
               Lets Connect and Discuss Your Ideas and How We Can Help You Transform Them into Impactful Solutions.
-
 
             </p>
 
@@ -545,8 +577,8 @@
                   <div class="error-txt">Subject can't be blank.</div>
                 </div>
                 <div class="textarea-field field">
-                  <textarea class="item" name="message" placeholder="Your Message" id="message" cols="30" rows="10"
-                    autocomplete="off" required></textarea>
+                  <textarea class="item" name="message" placeholder="Your Message" id="message" cols="20" rows="10"
+                    style="width: 50%; margin-right: 300px;" autocomplete="off" required></textarea>
                   <div class="error-txt">Message can't be blank.</div>
                 </div>
                 <input type="hidden" name="_captcha" value="false">
@@ -592,8 +624,8 @@
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
+              <a href="https://wa.me/918856858118" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
               </a>
             </li>
 
@@ -604,7 +636,7 @@
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.linkedin.com/company/trailitis" class="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
@@ -672,28 +704,21 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Other links</p>
+            <p class="footer-list-title">Social Media links</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">FAQ</a>
+            <a href="#" class="footer-link">Instagram</a>
+          </li>
+          <li>
+            <a href=" https://wa.me/918856858118 " class="footer-link">Whatsapp</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Portfolio</a>
+            <a href="https://www.linkedin.com/company/trailitis" class="footer-link">Linkedin</a>
           </li>
 
-          <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
-          </li>
 
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Support</a>
-          </li>
 
         </ul>
 
@@ -710,8 +735,8 @@
             </div>
 
             <div>
-              <a href="tel:+91XXXXXXXXXX" class="footer-item-link">+91XXXXXXXXXX</a>
-              <a href="tel:+91XXXXXXXXXX" class="footer-item-link">+91XXXXXXXXXX</a>
+              <a href="tel:+918856858118" class="footer-item-link">+91 8856858118</a>
+              <a href="tel:+917017125653" class="footer-item-link">+91 7017125653</a>
             </div>
 
           </li>
@@ -723,7 +748,7 @@
             </div>
 
             <div>
-              <a href="mailto:vergeoftrail@gmail.com" class="footer-item-link">vergeoftrail@gmail.com</a>
+              <a href="mailto:Info@thetrail.in" class="footer-item-link">Info@thetrail.in</a>
 
             </div>
 
@@ -766,6 +791,33 @@
     <ion-icon name="arrow-up-outline"></ion-icon>
   </a>
 
+
+  <!-- Whatsapp Icon -->
+
+  <script>
+    (function (w, d, s, u) {
+      w.gbwawc = {
+        url: u,
+        options: {
+          waId: "+91 8856858118",
+          siteName: "Trail",
+          siteTag: "Usually Replies in  few minutes",
+          siteLogo: "https://assets.gallabox.com/gb-home/wa-chat-widget/bot+avatars/1.png",
+          widgetPosition: "LEFT",
+          triggerMessage: "Hey would like to know more?",
+          welcomeMessage: "Welcome to Trail. ",
+          brandColor: "#25D366",
+          messageText: "",
+          replyOptions: ['Website Development', 'Social Media Management', 'Need Some Other Help!'],
+        },
+      };
+      var h = d.getElementsByTagName(s)[0],
+        j = d.createElement(s);
+      j.async = true;
+      j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+      h.parentNode.insertBefore(j, h);
+    })(window, document, "script", "https://waw.gallabox.com");
+  </script>
 
 
 
