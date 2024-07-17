@@ -1045,13 +1045,17 @@ body {
   .footer-brand { grid-column: auto; }
 
 }
+/* form */
+
+/* form */
 
 form{
-  width: 600px;
-  text-align: center;
+  width: 231px;
+  /* text-align: center; */
 }
 form .input-box{
   /* display: flex; */
+  
   justify-content: space-between;
 }
 
@@ -1060,7 +1064,7 @@ form .input-box{
 }
 
 .field .item{
-  width: 100%;
+  width: 340%;
   padding: 18px;
   background: transparent;
   border: 2px solid #ef1f76;
